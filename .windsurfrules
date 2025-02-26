@@ -1,0 +1,33 @@
+```markdown
+1. **Build System**: 
+   - Python pip (requirements.txt)
+   - Python 3.11+ (inferred from project requirements)
+
+2. **Core Frameworks**:
+   - LangGraph for workflow orchestration
+   - Pydantic AI for agent implementation
+   - Anthropic, Cohere, Groq for LLM providers
+
+3. **Key Libraries**:
+   - `httpx` (v0.27.2) for HTTP requests
+   - `beautifulsoup4` (v4.12.3) for web scraping
+   - `altair` (v5.5.0) for data visualization
+   - `huggingface-hub` (v0.27.1) for model interactions
+
+4. **Database/Storage**:
+   - Supabase (mentioned in project description)
+   - `aiosqlite` (v0.20.0) for local SQLite support
+
+5. **Development Tools**:
+   - `GitPython` (v3.1.44) for git interactions
+   - `filelock` (v3.16.1) for file locking mechanisms
+
+6. **Authentication**:
+   - `gotrue` (v2.11.1) for authentication flows
+
+7. **Testing Framework**: Not explicitly specified in requirements
+
+8. **Deployment Considerations**:
+   - Supports local LLMs via Ollama
+   - Cloud LLM providers: OpenAI, OpenRouter, Anthropic, Cohere, Groq
+```
